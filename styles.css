@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.marginleft-5{
+    margin-left: 5px;
+}
+
+.main{
+    
+}
+
+.logo-img{
+    /* height: 75%; */
+    width: 50px;
+    margin-top: 5px;
+}
+
+.bg-color{
+    background: #4992ff;
+}
+
+.consultation{
+    display: flex;
+    height: 60px;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.media-opinion{
+    display: flex;
+}
+
+.down-arrow-icon{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 15px;
+}
