@@ -8,8 +8,66 @@
     margin-left: 5px;
 }
 
-.main{
+.pr-10{
+    padding-right: 10px;
+}
+
+.mrl-20{
+    margin: 0px 20px;
+
+}
+
+.span-red{
+    color: rgb(243, 0, 0);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.jc-sb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    color: white;
+    background-color: #4992ff;
+    padding: 8px 30px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+
+.btn:hover{
+    background-color: #4992ff;
+}
+
+.second-navbar ul{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
+}
+
+.second-navbar .container-fluid{
+    padding-left: 70px;
+}
+
+@media screen and (max-width: 1150px){
+
+    .second-navbar ul li a {
+        font-size: 12px;
+        text-overflow: clip;
+        padding: 0;
+        white-space: nowrap;
+        display: block;
+    }
 }
 
 .logo-img{
@@ -39,4 +97,82 @@
     margin-left: 10px;
     margin-top: 10px;
     width: 15px;
+}
+
+/* banner  */
+
+.banner-img{
+    background-image: url(./images/banner-image.jpg);
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 350px;
+}
+
+.small-container{
+    display: block;
+}
+
+.banner-text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 80px 0;
+}
+
+.banner-text h1{
+    font-weight: 200px;
+    line-height: 45px;
+}
+
+.navbar-2 a:hover{
+    border-bottom: 2px solid #4992ff;
+}
+
+/* overview-container */
+
+.overview-container{
+    margin-top: 30px;
+}
+
+.overview-container h1{
+    margin-bottom: 30px;
+}
+
+.overview-container .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-2 {
+    padding: 40px 0px;
+    border-bottom: 2px dashed #0066ff;
+}
+.overview-container .col-2{
+    flex:1
+}
+
+@media screen and (max-width: 1150px) {
+    .small-container {
+        padding: 0px 3%;
+    }
+}
+.col-2 h2 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.col-2 p {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 0;
+    color: #444;
+}
+
+.overview-container .col-2 img {
+    height: 100%;
+    width: 100%;
+    padding-left: 40px;
 }
