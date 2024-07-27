@@ -1,4 +1,6 @@
 <b>Aafiya Mediretreats</b>
 <br>
-Here we have used HTML, CSS, JS, Bootstrap
-
+<hr>
+Technologies used are HTML, CSS, JS, Bootstrap
+<br>
+<hr>
