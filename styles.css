@@ -19,8 +19,8 @@
 
 .span-red{
     color: rgb(243, 0, 0);
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 900;
+    font-size: 20px;
 }
 
 a {
@@ -150,7 +150,7 @@ a {
     padding: 40px 0px;
     border-bottom: 2px dashed #0066ff;
 }
-.overview-container .col-2{
+.col-2{
     flex:1
 }
 
@@ -175,4 +175,40 @@ a {
     height: 100%;
     width: 100%;
     padding-left: 40px;
+}
+
+/* eligibility container  */
+
+.eligibility-container .row-2 {
+    border-bottom: none;
+}
+
+.eligibility-container .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.eligibility-container .column-3 {
+    border-bottom: 2px dashed #0066ff;
+    padding: 40px 0px;
+}
+
+.eligibility-container .row-2 .col-2:first-child {
+    flex: 2;
+    padding-right: 50px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1150px) {
+    .eligibility-container .row {
+        flex-direction: column;
+    }
+}
+
+.eligibility-container li {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 0;
+    color: #444;
 }
