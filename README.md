@@ -1,6 +1,8 @@
 <b>Aafiya Mediretreats</b>
 <hr>
-Technologies used are HTML, CSS, JS, Bootstrap, Owl Carousel
+Technologies Used
+<hr>
+HTML, CSS, JS, Bootstrap, Owl Carousel
 <hr>
 <br>
 I have tried my excellence to make the website as responsive as possible
