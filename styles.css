@@ -150,7 +150,7 @@ a {
     padding: 40px 0px;
     border-bottom: 2px dashed #0066ff;
 }
-.col-2{
+.overview-container .col-2{
     flex:1
 }
 
@@ -181,6 +181,10 @@ a {
 
 .eligibility-container .row-2 {
     border-bottom: none;
+}
+
+.eligibility-container .col-2{
+    flex:1
 }
 
 .eligibility-container .row {
@@ -215,6 +219,18 @@ a {
 
 /* Card  */
 
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 20px;
+    box-shadow: 0px 0px 25px -20px #555;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+
 .card h3 {
     color: #4992ff;
     font-size: 30px;
@@ -223,4 +239,26 @@ a {
 
 .card p {
     font-weight: 500;
+    color: #555;
+}
+
+.card input{
+    padding: 10px;
+    width: 100%;
+    margin: 10px auto;
+    outline: none;
+    border: 1px solid #ddd;
+    color: #999;
+}
+
+.card .btn{
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.eligibility-container .row-2 .col-2:last-child {
+    width: 60%;
 }
