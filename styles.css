@@ -212,3 +212,15 @@ a {
     padding: 5px 0;
     color: #444;
 }
+
+/* Card  */
+
+.card h3 {
+    color: #4992ff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.card p {
+    font-weight: 500;
+}
