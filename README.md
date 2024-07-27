@@ -1,4 +1,4 @@
-<b>Aafiya Mediretreats</b>
+<b><h1>Aafiya Mediretreat</h1>s</b>
 <hr>
 Technologies Used
 <ul>
