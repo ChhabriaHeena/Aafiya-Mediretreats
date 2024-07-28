@@ -76,6 +76,10 @@ a {
     }
 }
 
+.owl-carousel .card-body{
+    padding: 0;
+}
+
 .logo-img{
     width: 50px;
     margin-top: 5px;
@@ -286,7 +290,7 @@ a {
 .doctor-container{
     background-color: #e9fafa;
 }
-.doctors h3,h2{
+.doctors h5,h2{
     text-align: center;
 }
 
@@ -294,6 +298,12 @@ a {
     margin: 0px 60px;
 }
 
-.owl-carousel .card-body{
-    padding: 0;
+/* Hospitals  */
+
+.hospitals h5,h2{
+    text-align: center;
+}
+
+.hosiptals-carousel{
+    margin: 0px 60px;
 }
