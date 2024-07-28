@@ -307,7 +307,15 @@ a {
     margin: 30px 70px;
 }
 
+.doctor-container .row-2 {
+    border-bottom: none;
+}
+
 /* Hospitals  */
+
+.hosiptal-container .row-2 {
+    border-bottom: none;
+}
 
 .hospitals h5, h2, h4, p{
     text-align: center;
