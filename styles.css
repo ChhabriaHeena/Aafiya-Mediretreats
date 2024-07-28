@@ -304,15 +304,24 @@ a {
 }
 
 .doctors-carousel{
-    margin: 0px 70px;
+    margin: 30px 70px;
 }
 
 /* Hospitals  */
 
-.hospitals h5,h2{
+.hospitals h5, h2, h4, p{
     text-align: center;
 }
 
-.hosiptals-carousel{
-    margin: 0px 60px;
+.hospitals-carousel{
+    margin: 30px 60px;
+}
+
+.hospitals-carousel .card{
+    border: 1px dashed #4992ff;
+    padding: 0px;
+}
+
+.hospitals h4{
+    margin-top: 20px;
 }
