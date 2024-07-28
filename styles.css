@@ -77,7 +77,6 @@ a {
 }
 
 .logo-img{
-    /* height: 75%; */
     width: 50px;
     margin-top: 5px;
 }
@@ -270,4 +269,5 @@ a {
 
 .border-left{
     border-left: 2px solid #4992ff;
+    margin-right: 10px;
 }
