@@ -276,3 +276,7 @@ a {
 .column-3 .patient{
     max-width: 700px;
 }
+
+.row-2 #patientstories{
+    border-bottom: none;
+}
