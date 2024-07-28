@@ -271,3 +271,8 @@ a {
     border-left: 2px solid #4992ff;
     margin-right: 10px;
 }
+/* Patient Stories & Videos Owl Carousel */
+
+.column-3 .patient{
+    max-width: 700px;
+}
