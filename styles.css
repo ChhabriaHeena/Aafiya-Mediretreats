@@ -280,3 +280,20 @@ a {
 .row-2 #patientstories{
     border-bottom: none;
 }
+
+/* Doctors Container */
+
+.doctor-container{
+    background-color: #e9fafa;
+}
+.doctors h3,h2{
+    text-align: center;
+}
+
+.doctors-carousel{
+    margin: 0px 60px;
+}
+
+.owl-carousel .card-body{
+    padding: 0;
+}

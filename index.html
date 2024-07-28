@@ -462,13 +462,13 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class=" doctor-container">
             <div class="small-container">
                 <div class="row row-2">
-                    <div class="">
+                    <div class="doctors">
                         <h3>Doctors</h3>
                         <h2>Patient Stories & Videos<span class="span-red">.</span></h2>
-                        <div class="doctors">
+                        <div class="doctors-carousel">
                             <div class="owl-two owl-carousel owl-theme">
                                 <div class="item">
                                     <div class="card">
@@ -476,7 +476,7 @@
                                             <img class="owl-lazy"
                                                 data-src="./images/free-photo-of-beach-umbrellas-and-sunbeds-in-resort-on-sea-shore.jpeg"
                                                 data-src-retina="./images/free-photo-of-beach-umbrellas-and-sunbeds-in-resort-on-sea-shore.jpeg"
-                                                alt="">
+                                                alt="" height="300">
                                             <hr>
                                             <h1>OWL CAROUSEL</h1>
                                         </div>
@@ -596,7 +596,9 @@
                 items: 3,
                 lazyLoad: true,
                 loop: true,
-                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                margin: 60,
                 responsive: {
                     0: {
                         items: 1
