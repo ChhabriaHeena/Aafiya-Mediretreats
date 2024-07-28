@@ -78,6 +78,15 @@ a {
 
 .owl-carousel .card-body{
     padding: 0;
+    border-radius: 5px;
+}
+
+.owl-carousel .item{
+    width: 85%;
+}
+
+.carousel-content{
+    text-align: center;
 }
 
 .logo-img{
@@ -295,7 +304,7 @@ a {
 }
 
 .doctors-carousel{
-    margin: 0px 60px;
+    margin: 0px 70px;
 }
 
 /* Hospitals  */
