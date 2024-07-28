@@ -333,3 +333,26 @@ a {
 .hospitals h4{
     margin-top: 20px;
 }
+
+
+/* Footer */
+
+.footer-one{
+    background-color: #25a4df;
+    height: 40vh;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-one .footer-one-body{
+    padding: 50px;
+}
+
+.footer-one .footer-one-vertical-line{
+   font-size: 30px;
+}
+
+.footer-one .footer-one-contact{
+    display: flex;
+    justify-content: center;
+}
