@@ -25,6 +25,7 @@
 <body>
     <div id="loading" style="display: none;"></div>
     <div class="main">
+
         <div class="header" id="header" style="margin-left: 60px;">
 
             <nav class="navbar navbar-expand-lg">
@@ -363,7 +364,7 @@
                         <div class="column-3" id="patientstories">
                             <div class="patient">
                             <h2>Patient Stories & Videos<span class="span-red">.</span></h2>
-                                <div class="owl-carousel" style="background-color: red;">
+                                <div class="owl-one owl-carousel" style="background-color: red;">
                                     <div class="item">
                                         <div class="card">
                                             <div class="card-body">
@@ -393,6 +394,54 @@
                 </div>
             </div>
         </div>
+
+        <div class="container">
+            <div class="small-container">
+                <div class="row row-2">
+                    <div class="">
+                        <h3>Doctors</h3>
+                        <h2>Patient Stories & Videos<span class="span-red">.</span></h2>
+                            <div class="doctors">
+                                <div class="owl-two owl-carousel" style="background-color: red;">
+                                    <div class="item">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <img class="owl-lazy"
+                                                    src="./images/free-photo-of-beach-umbrellas-and-sunbeds-in-resort-on-sea-shore.jpeg"
+                                                    alt="">
+                                                <hr>
+                                                <h1>OWL CAROUSEL</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <img class="owl-lazy"
+                                                    src="./images/free-photo-of-beach-umbrellas-and-sunbeds-in-resort-on-sea-shore.jpeg"
+                                                    alt="">
+                                                <hr>
+                                                <h1>OWL CAROUSEL</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <img class="owl-lazy"
+                                                    src="./images/free-photo-of-beach-umbrellas-and-sunbeds-in-resort-on-sea-shore.jpeg"
+                                                    alt="">
+                                                <hr>
+                                                <h1>OWL CAROUSEL</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Bootstrap  -->
@@ -411,27 +460,46 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
-    <script>
-        $('.owl-carousel').owlCarousel({
-            items: 2,
-            lazyLoad: true,
-            loop: true,
-            margin: 10,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                },
-                1000: {
-                    items: 2
-                }
-            }
-        });
-
-
-    </script>
+        <script>
+            $(document).ready(function(){
+                $('.owl-one').owlCarousel({
+                    items: 2,
+                    lazyLoad: true,
+                    loop: true,
+                    margin: 10,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 2
+                        },
+                        1000: {
+                            items: 2
+                        }
+                    }
+                });
+        
+                $('.owl-two').owlCarousel({
+                    items: 3,
+                    lazyLoad: true,
+                    loop: true,
+                    margin: 10,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 2
+                        },
+                        1000: {
+                            items: 3
+                        }
+                    }
+                });
+            });
+        </script>
+        
 
 </body>
 
