@@ -357,3 +357,18 @@ a {
     display: flex;
     justify-content: center;
 }
+
+.footer-two{
+    background-color: #161616;
+    color: #fff;
+    padding: 30px 30px 0px 30px;
+}
+
+.footer-links a{
+    color: #fff;
+}
+
+.footer-links ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
