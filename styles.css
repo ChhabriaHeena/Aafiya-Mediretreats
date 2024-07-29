@@ -299,7 +299,7 @@ a {
 .doctor-container{
     background-color: #e9fafa;
 }
-.doctors h5,h2{
+.doctor-container .doctors{
     text-align: center;
 }
 
@@ -317,7 +317,7 @@ a {
     border-bottom: none;
 }
 
-.hospitals h5, h2, h4, p{
+.hosiptal-container .hospitals{
     text-align: center;
 }
 
@@ -328,6 +328,7 @@ a {
 .hospitals-carousel .card{
     border: 1px dashed #4992ff;
     padding: 0px;
+    margin-bottom: 20px;
 }
 
 .hospitals h4{
