@@ -359,9 +359,13 @@ a {
 }
 
 .footer-two{
-    background-color: #161616;
+    background-color: #0b2432;
     color: #fff;
     padding: 30px 30px 0px 30px;
+}
+
+.footer-links{
+    margin-top: 20px;
 }
 
 .footer-links a{
