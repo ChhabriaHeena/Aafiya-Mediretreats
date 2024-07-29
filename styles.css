@@ -397,3 +397,18 @@ a {
     height: 100%;
     margin: 5px;
 }
+
+.footer-three{
+    background-color: #25a4df;
+    color: #fff;
+    padding: 10px 60px;
+}
+
+.footer-three .footer-three-body-link-style{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-three .footer-three-body-link-style a{
+    color: #fff;
+}
