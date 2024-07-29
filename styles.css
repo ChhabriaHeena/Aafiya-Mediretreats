@@ -376,3 +376,24 @@ a {
     list-style-type: none;
     padding-left: 0px;
 }
+
+.second-footer-body{
+    padding: 20px 0px;
+}
+
+.contact-no{
+    color: #4992ff;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.social-icons img{
+    width: 25px;
+    height: 100%;
+    margin: 5px;
+}
