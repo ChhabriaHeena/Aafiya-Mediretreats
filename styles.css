@@ -204,12 +204,6 @@ a {
     flex:1
 }
 
-.eligibility-container .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
 .eligibility-container .column-3 {
     border-bottom: 2px dashed #0066ff;
     padding: 40px 0px;
@@ -292,6 +286,11 @@ a {
 
 .row-2 #patientstories{
     border-bottom: none;
+}
+
+.sticky-styling{
+    top:129px;
+    position: sticky;
 }
 
 /* Doctors Container */
